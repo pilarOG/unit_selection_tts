@@ -1,0 +1,120 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 2.14000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0
+		xmax = 2.14000
+		intervals: size = 20
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.09000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.09000
+				xmax = 0.25000
+				text = "n"
+			intervals [3]:
+				xmin = 0.25000
+				xmax = 0.47000
+				text = "o"
+			intervals [4]:
+				xmin = 0.47000
+				xmax = 0.67000
+				text = "t"
+			intervals [5]:
+				xmin = 0.67000
+				xmax = 0.71000
+				text = "e"
+			intervals [6]:
+				xmin = 0.71000
+				xmax = 0.74000
+				text = "p"
+			intervals [7]:
+				xmin = 0.74000
+				xmax = 0.77000
+				text = "r"
+			intervals [8]:
+				xmin = 0.77000
+				xmax = 0.80000
+				text = "e"
+			intervals [9]:
+				xmin = 0.80000
+				xmax = 0.83000
+				text = "p"
+			intervals [10]:
+				xmin = 0.83000
+				xmax = 0.89000
+				text = "r"
+			intervals [11]:
+				xmin = 0.89000
+				xmax = 0.92000
+				text = "eS"
+			intervals [12]:
+				xmin = 0.92000
+				xmax = 0.95000
+				text = "o"
+			intervals [13]:
+				xmin = 0.95000
+				xmax = 1.03000
+				text = "k"
+			intervals [14]:
+				xmin = 1.03000
+				xmax = 1.42000
+				text = "u"
+			intervals [15]:
+				xmin = 1.42000
+				xmax = 1.45000
+				text = "k"
+			intervals [16]:
+				xmin = 1.45000
+				xmax = 1.71000
+				text = "u"
+			intervals [17]:
+				xmin = 1.71000
+				xmax = 1.79000
+				text = "p"
+			intervals [18]:
+				xmin = 1.79000
+				xmax = 1.93000
+				text = "e"
+			intervals [19]:
+				xmin = 1.93000
+				xmax = 2.12000
+				text = "h"
+			intervals [20]:
+				xmin = 2.12000
+				xmax = 2.14000
+				text = "sil"
+	item [2]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0
+		xmax = 2.14000
+		intervals: size = 5
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.09000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.09000
+				xmax = 0.47000
+				text = "No"
+			intervals [3]:
+				xmin = 0.47000
+				xmax = 0.71000
+				text = "te"
+			intervals [4]:
+				xmin = 0.71000
+				xmax = 2.12000
+				text = "preocupes"
+			intervals [5]:
+				xmin = 2.12000
+				xmax = 2.14000
+				text = "sil"

@@ -1,0 +1,92 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1.19000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0
+		xmax = 1.19000
+		intervals: size = 13
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.14000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.14000
+				xmax = 0.20000
+				text = "aS"
+			intervals [3]:
+				xmin = 0.20000
+				xmax = 0.32000
+				text = "h"
+			intervals [4]:
+				xmin = 0.32000
+				xmax = 0.39000
+				text = "t"
+			intervals [5]:
+				xmin = 0.39000
+				xmax = 0.44000
+				text = "a"
+			intervals [6]:
+				xmin = 0.44000
+				xmax = 0.53000
+				text = "m"
+			intervals [7]:
+				xmin = 0.53000
+				xmax = 0.56000
+				text = "a"
+			intervals [8]:
+				xmin = 0.56000
+				xmax = 0.77000
+				text = "ny"
+			intervals [9]:
+				xmin = 0.77000
+				xmax = 0.85000
+				text = "aS"
+			intervals [10]:
+				xmin = 0.85000
+				xmax = 0.94000
+				text = "n"
+			intervals [11]:
+				xmin = 0.94000
+				xmax = 1.14000
+				text = "a"
+			intervals [12]:
+				xmin = 1.14000
+				xmax = 1.17000
+				text = ""
+			intervals [13]:
+				xmin = 1.17000
+				xmax = 1.19000
+				text = "sil"
+	item [2]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0
+		xmax = 1.19000
+		intervals: size = 5
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.14000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.14000
+				xmax = 0.44000
+				text = "Hasta"
+			intervals [3]:
+				xmin = 0.44000
+				xmax = 1.14000
+				text = "ma\303\261ana"
+			intervals [4]:
+				xmin = 1.14000
+				xmax = 1.17000
+				text = "sp"
+			intervals [5]:
+				xmin = 1.17000
+				xmax = 1.19000
+				text = "sil"

@@ -1,0 +1,96 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1.61000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0
+		xmax = 1.61000
+		intervals: size = 14
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.10000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.10000
+				xmax = 0.15000
+				text = "aS"
+			intervals [3]:
+				xmin = 0.15000
+				xmax = 0.26000
+				text = "b"
+			intervals [4]:
+				xmin = 0.26000
+				xmax = 0.37000
+				text = "l"
+			intervals [5]:
+				xmin = 0.37000
+				xmax = 0.65000
+				text = "o"
+			intervals [6]:
+				xmin = 0.65000
+				xmax = 0.75000
+				text = "eS"
+			intervals [7]:
+				xmin = 0.75000
+				xmax = 0.91000
+				text = "h"
+			intervals [8]:
+				xmin = 0.91000
+				xmax = 0.97000
+				text = "p"
+			intervals [9]:
+				xmin = 0.97000
+				xmax = 1.00000
+				text = "a"
+			intervals [10]:
+				xmin = 1.00000
+				xmax = 1.21000
+				text = "ny"
+			intervals [11]:
+				xmin = 1.21000
+				xmax = 1.29000
+				text = "o"
+			intervals [12]:
+				xmin = 1.29000
+				xmax = 1.54000
+				text = "l"
+			intervals [13]:
+				xmin = 1.54000
+				xmax = 1.57000
+				text = ""
+			intervals [14]:
+				xmin = 1.57000
+				xmax = 1.61000
+				text = "sil"
+	item [2]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0
+		xmax = 1.61000
+		intervals: size = 5
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.10000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.10000
+				xmax = 0.65000
+				text = "Hablo"
+			intervals [3]:
+				xmin = 0.65000
+				xmax = 1.54000
+				text = "espa\303\261ol"
+			intervals [4]:
+				xmin = 1.54000
+				xmax = 1.57000
+				text = "sp"
+			intervals [5]:
+				xmin = 1.57000
+				xmax = 1.61000
+				text = "sil"

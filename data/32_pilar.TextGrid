@@ -1,0 +1,124 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1.91000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0
+		xmax = 1.91000
+		intervals: size = 18
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.12000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.12000
+				xmax = 0.20000
+				text = "n"
+			intervals [3]:
+				xmin = 0.20000
+				xmax = 0.31000
+				text = "o"
+			intervals [4]:
+				xmin = 0.31000
+				xmax = 0.45000
+				text = "s"
+			intervals [5]:
+				xmin = 0.45000
+				xmax = 0.52000
+				text = "oS"
+			intervals [6]:
+				xmin = 0.52000
+				xmax = 0.79000
+				text = "i"
+			intervals [7]:
+				xmin = 0.79000
+				xmax = 0.84000
+				text = ""
+			intervals [8]:
+				xmin = 0.84000
+				xmax = 0.94000
+				text = "uS"
+			intervals [9]:
+				xmin = 0.94000
+				xmax = 1.05000
+				text = "n"
+			intervals [10]:
+				xmin = 1.05000
+				xmax = 1.12000
+				text = "a"
+			intervals [11]:
+				xmin = 1.12000
+				xmax = 1.26000
+				text = "m"
+			intervals [12]:
+				xmin = 1.26000
+				xmax = 1.37000
+				text = "aS"
+			intervals [13]:
+				xmin = 1.37000
+				xmax = 1.40000
+				text = "k"
+			intervals [14]:
+				xmin = 1.40000
+				xmax = 1.57000
+				text = "i"
+			intervals [15]:
+				xmin = 1.57000
+				xmax = 1.66000
+				text = "n"
+			intervals [16]:
+				xmin = 1.66000
+				xmax = 1.84000
+				text = "a"
+			intervals [17]:
+				xmin = 1.84000
+				xmax = 1.89000
+				text = ""
+			intervals [18]:
+				xmin = 1.89000
+				xmax = 1.91000
+				text = "sil"
+	item [2]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0
+		xmax = 1.91000
+		intervals: size = 8
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.12000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.12000
+				xmax = 0.31000
+				text = "No"
+			intervals [3]:
+				xmin = 0.31000
+				xmax = 0.79000
+				text = "soy"
+			intervals [4]:
+				xmin = 0.79000
+				xmax = 0.84000
+				text = "sp"
+			intervals [5]:
+				xmin = 0.84000
+				xmax = 1.12000
+				text = "una"
+			intervals [6]:
+				xmin = 1.12000
+				xmax = 1.84000
+				text = "m\303\241quina"
+			intervals [7]:
+				xmin = 1.84000
+				xmax = 1.89000
+				text = "sp"
+			intervals [8]:
+				xmin = 1.89000
+				xmax = 1.91000
+				text = "sil"

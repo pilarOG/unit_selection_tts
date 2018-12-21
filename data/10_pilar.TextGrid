@@ -1,0 +1,124 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 2.16000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0
+		xmax = 2.16000
+		intervals: size = 19
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.12000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.12000
+				xmax = 0.23000
+				text = "e"
+			intervals [3]:
+				xmin = 0.23000
+				xmax = 0.40000
+				text = "h"
+			intervals [4]:
+				xmin = 0.40000
+				xmax = 0.44000
+				text = ""
+			intervals [5]:
+				xmin = 0.44000
+				xmax = 0.56000
+				text = "s"
+			intervals [6]:
+				xmin = 0.56000
+				xmax = 0.63000
+				text = "oS"
+			intervals [7]:
+				xmin = 0.63000
+				xmax = 0.66000
+				text = "l"
+			intervals [8]:
+				xmin = 0.66000
+				xmax = 0.72000
+				text = "o"
+			intervals [9]:
+				xmin = 0.72000
+				xmax = 0.75000
+				text = "uS"
+			intervals [10]:
+				xmin = 0.75000
+				xmax = 0.82000
+				text = "n"
+			intervals [11]:
+				xmin = 0.82000
+				xmax = 0.85000
+				text = "a"
+			intervals [12]:
+				xmin = 0.85000
+				xmax = 0.95000
+				text = "o"
+			intervals [13]:
+				xmin = 0.95000
+				xmax = 1.16000
+				text = "p"
+			intervals [14]:
+				xmin = 1.16000
+				xmax = 1.50000
+				text = "i"
+			intervals [15]:
+				xmin = 1.50000
+				xmax = 1.53000
+				text = "n"
+			intervals [16]:
+				xmin = 1.53000
+				xmax = 2.06000
+				text = "iSC"
+			intervals [17]:
+				xmin = 2.06000
+				xmax = 2.09000
+				text = "oS"
+			intervals [18]:
+				xmin = 2.09000
+				xmax = 2.14000
+				text = "n"
+			intervals [19]:
+				xmin = 2.14000
+				xmax = 2.16000
+				text = "sil"
+	item [2]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0
+		xmax = 2.16000
+		intervals: size = 7
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.12000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.12000
+				xmax = 0.40000
+				text = "Es"
+			intervals [3]:
+				xmin = 0.40000
+				xmax = 0.44000
+				text = "sp"
+			intervals [4]:
+				xmin = 0.44000
+				xmax = 0.72000
+				text = "solo"
+			intervals [5]:
+				xmin = 0.72000
+				xmax = 0.85000
+				text = "una"
+			intervals [6]:
+				xmin = 0.85000
+				xmax = 2.14000
+				text = "opini\303\263n"
+			intervals [7]:
+				xmin = 2.14000
+				xmax = 2.16000
+				text = "sil"

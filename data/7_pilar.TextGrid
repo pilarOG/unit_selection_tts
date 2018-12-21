@@ -1,0 +1,96 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1.76000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0
+		xmax = 1.76000
+		intervals: size = 14
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.13000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.13000
+				xmax = 0.16000
+				text = "k"
+			intervals [3]:
+				xmin = 0.16000
+				xmax = 0.19000
+				text = "eS"
+			intervals [4]:
+				xmin = 0.19000
+				xmax = 0.22000
+				text = "eS"
+			intervals [5]:
+				xmin = 0.22000
+				xmax = 0.41000
+				text = "dA"
+			intervals [6]:
+				xmin = 0.41000
+				xmax = 0.69000
+				text = "a"
+			intervals [7]:
+				xmin = 0.69000
+				xmax = 0.72000
+				text = "d"
+			intervals [8]:
+				xmin = 0.72000
+				xmax = 0.94000
+				text = "t"
+			intervals [9]:
+				xmin = 0.94000
+				xmax = 1.07000
+				text = "iSC"
+			intervals [10]:
+				xmin = 1.07000
+				xmax = 1.17000
+				text = "eS"
+			intervals [11]:
+				xmin = 1.17000
+				xmax = 1.25000
+				text = "n"
+			intervals [12]:
+				xmin = 1.25000
+				xmax = 1.42000
+				text = "e"
+			intervals [13]:
+				xmin = 1.42000
+				xmax = 1.74000
+				text = "h"
+			intervals [14]:
+				xmin = 1.74000
+				xmax = 1.76000
+				text = "sil"
+	item [2]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0
+		xmax = 1.76000
+		intervals: size = 5
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.13000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.13000
+				xmax = 0.19000
+				text = "Qu\303\251"
+			intervals [3]:
+				xmin = 0.19000
+				xmax = 0.72000
+				text = "edad"
+			intervals [4]:
+				xmin = 0.72000
+				xmax = 1.74000
+				text = "tienes"
+			intervals [5]:
+				xmin = 1.74000
+				xmax = 1.76000
+				text = "sil"

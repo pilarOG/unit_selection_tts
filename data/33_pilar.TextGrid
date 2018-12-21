@@ -1,0 +1,120 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1.92000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0
+		xmax = 1.92000
+		intervals: size = 19
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.02000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.02000
+				xmax = 0.08000
+				text = "t"
+			intervals [3]:
+				xmin = 0.08000
+				xmax = 0.12000
+				text = "eS"
+			intervals [4]:
+				xmin = 0.12000
+				xmax = 0.15000
+				text = "n"
+			intervals [5]:
+				xmin = 0.15000
+				xmax = 0.32000
+				text = "g"
+			intervals [6]:
+				xmin = 0.32000
+				xmax = 0.43000
+				text = "o"
+			intervals [7]:
+				xmin = 0.43000
+				xmax = 0.51000
+				text = "t"
+			intervals [8]:
+				xmin = 0.51000
+				xmax = 0.55000
+				text = "r"
+			intervals [9]:
+				xmin = 0.55000
+				xmax = 0.61000
+				text = "eS"
+			intervals [10]:
+				xmin = 0.61000
+				xmax = 0.64000
+				text = "iSV"
+			intervals [11]:
+				xmin = 0.64000
+				xmax = 0.77000
+				text = "n"
+			intervals [12]:
+				xmin = 0.77000
+				xmax = 0.88000
+				text = "t"
+			intervals [13]:
+				xmin = 0.88000
+				xmax = 1.12000
+				text = "a"
+			intervals [14]:
+				xmin = 1.12000
+				xmax = 1.24000
+				text = "aS"
+			intervals [15]:
+				xmin = 1.24000
+				xmax = 1.80000
+				text = "ny"
+			intervals [16]:
+				xmin = 1.80000
+				xmax = 1.86000
+				text = "o"
+			intervals [17]:
+				xmin = 1.86000
+				xmax = 1.89000
+				text = "h"
+			intervals [18]:
+				xmin = 1.89000
+				xmax = 1.90000
+				text = ""
+			intervals [19]:
+				xmin = 1.90000
+				xmax = 1.92000
+				text = "sil"
+	item [2]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0
+		xmax = 1.92000
+		intervals: size = 6
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.02000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.02000
+				xmax = 0.43000
+				text = "Tengo"
+			intervals [3]:
+				xmin = 0.43000
+				xmax = 1.12000
+				text = "treinta"
+			intervals [4]:
+				xmin = 1.12000
+				xmax = 1.89000
+				text = "a\303\261os"
+			intervals [5]:
+				xmin = 1.89000
+				xmax = 1.90000
+				text = "sp"
+			intervals [6]:
+				xmin = 1.90000
+				xmax = 1.92000
+				text = "sil"

@@ -1,0 +1,116 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1.80000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0
+		xmax = 1.80000
+		intervals: size = 18
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.21000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.21000
+				xmax = 0.24000
+				text = "ll"
+			intervals [3]:
+				xmin = 0.24000
+				xmax = 0.30000
+				text = "o"
+			intervals [4]:
+				xmin = 0.30000
+				xmax = 0.35000
+				text = "b"
+			intervals [5]:
+				xmin = 0.35000
+				xmax = 0.52000
+				text = "iS"
+			intervals [6]:
+				xmin = 0.52000
+				xmax = 0.55000
+				text = "bA"
+			intervals [7]:
+				xmin = 0.55000
+				xmax = 0.75000
+				text = "o"
+			intervals [8]:
+				xmin = 0.75000
+				xmax = 0.79000
+				text = "e"
+			intervals [9]:
+				xmin = 0.79000
+				xmax = 0.86000
+				text = "n"
+			intervals [10]:
+				xmin = 0.86000
+				xmax = 1.00000
+				text = "s"
+			intervals [11]:
+				xmin = 1.00000
+				xmax = 1.07000
+				text = "a"
+			intervals [12]:
+				xmin = 1.07000
+				xmax = 1.20000
+				text = "n"
+			intervals [13]:
+				xmin = 1.20000
+				xmax = 1.29000
+				text = "t"
+			intervals [14]:
+				xmin = 1.29000
+				xmax = 1.63000
+				text = "iSC"
+			intervals [15]:
+				xmin = 1.63000
+				xmax = 1.66000
+				text = "aS"
+			intervals [16]:
+				xmin = 1.66000
+				xmax = 1.74000
+				text = "g"
+			intervals [17]:
+				xmin = 1.74000
+				xmax = 1.78000
+				text = "o"
+			intervals [18]:
+				xmin = 1.78000
+				xmax = 1.80000
+				text = "sil"
+	item [2]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0
+		xmax = 1.80000
+		intervals: size = 6
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.21000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.21000
+				xmax = 0.30000
+				text = "Yo"
+			intervals [3]:
+				xmin = 0.30000
+				xmax = 0.75000
+				text = "vivo"
+			intervals [4]:
+				xmin = 0.75000
+				xmax = 0.86000
+				text = "en"
+			intervals [5]:
+				xmin = 0.86000
+				xmax = 1.78000
+				text = "Santiago"
+			intervals [6]:
+				xmin = 1.78000
+				xmax = 1.80000
+				text = "sil"

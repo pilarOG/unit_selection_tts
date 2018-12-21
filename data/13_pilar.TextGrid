@@ -1,0 +1,92 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1.68000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0
+		xmax = 1.68000
+		intervals: size = 14
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.02000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.02000
+				xmax = 0.23000
+				text = "b"
+			intervals [3]:
+				xmin = 0.23000
+				xmax = 0.26000
+				text = "uSC"
+			intervals [4]:
+				xmin = 0.26000
+				xmax = 0.29000
+				text = "eS"
+			intervals [5]:
+				xmin = 0.29000
+				xmax = 0.35000
+				text = "n"
+			intervals [6]:
+				xmin = 0.35000
+				xmax = 0.51000
+				text = "a"
+			intervals [7]:
+				xmin = 0.51000
+				xmax = 0.67000
+				text = "h"
+			intervals [8]:
+				xmin = 0.67000
+				xmax = 0.81000
+				text = "t"
+			intervals [9]:
+				xmin = 0.81000
+				xmax = 0.90000
+				text = "aS"
+			intervals [10]:
+				xmin = 0.90000
+				xmax = 1.04000
+				text = "r"
+			intervals [11]:
+				xmin = 1.04000
+				xmax = 1.12000
+				text = "d"
+			intervals [12]:
+				xmin = 1.12000
+				xmax = 1.27000
+				text = "e"
+			intervals [13]:
+				xmin = 1.27000
+				xmax = 1.66000
+				text = "h"
+			intervals [14]:
+				xmin = 1.66000
+				xmax = 1.68000
+				text = "sil"
+	item [2]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0
+		xmax = 1.68000
+		intervals: size = 4
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.02000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.02000
+				xmax = 0.67000
+				text = "Buenas"
+			intervals [3]:
+				xmin = 0.67000
+				xmax = 1.66000
+				text = "tardes"
+			intervals [4]:
+				xmin = 1.66000
+				xmax = 1.68000
+				text = "sil"

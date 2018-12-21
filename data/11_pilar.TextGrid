@@ -1,0 +1,96 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1.98000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0
+		xmax = 1.98000
+		intervals: size = 14
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.02000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.02000
+				xmax = 0.23000
+				text = "n"
+			intervals [3]:
+				xmin = 0.23000
+				xmax = 0.26000
+				text = "o"
+			intervals [4]:
+				xmin = 0.26000
+				xmax = 0.29000
+				text = "aS"
+			intervals [5]:
+				xmin = 0.29000
+				xmax = 0.32000
+				text = "b"
+			intervals [6]:
+				xmin = 0.32000
+				xmax = 0.35000
+				text = "l"
+			intervals [7]:
+				xmin = 0.35000
+				xmax = 0.39000
+				text = "o"
+			intervals [8]:
+				xmin = 0.39000
+				xmax = 0.62000
+				text = "i"
+			intervals [9]:
+				xmin = 0.62000
+				xmax = 0.83000
+				text = "n"
+			intervals [10]:
+				xmin = 0.83000
+				xmax = 1.33000
+				text = "g"
+			intervals [11]:
+				xmin = 1.33000
+				xmax = 1.43000
+				text = "l"
+			intervals [12]:
+				xmin = 1.43000
+				xmax = 1.60000
+				text = "eS"
+			intervals [13]:
+				xmin = 1.60000
+				xmax = 1.96000
+				text = "h"
+			intervals [14]:
+				xmin = 1.96000
+				xmax = 1.98000
+				text = "sil"
+	item [2]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0
+		xmax = 1.98000
+		intervals: size = 5
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.02000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.02000
+				xmax = 0.26000
+				text = "No"
+			intervals [3]:
+				xmin = 0.26000
+				xmax = 0.39000
+				text = "hablo"
+			intervals [4]:
+				xmin = 0.39000
+				xmax = 1.96000
+				text = "ingl\303\251s"
+			intervals [5]:
+				xmin = 1.96000
+				xmax = 1.98000
+				text = "sil"

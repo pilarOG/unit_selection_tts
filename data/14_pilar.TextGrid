@@ -1,0 +1,132 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 2.30000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0
+		xmax = 2.30000
+		intervals: size = 22
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.02000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.02000
+				xmax = 0.05000
+				text = "m"
+			intervals [3]:
+				xmin = 0.05000
+				xmax = 0.08000
+				text = "e"
+			intervals [4]:
+				xmin = 0.08000
+				xmax = 0.11000
+				text = "g"
+			intervals [5]:
+				xmin = 0.11000
+				xmax = 0.49000
+				text = "uS"
+			intervals [6]:
+				xmin = 0.49000
+				xmax = 0.63000
+				text = "h"
+			intervals [7]:
+				xmin = 0.63000
+				xmax = 0.70000
+				text = "t"
+			intervals [8]:
+				xmin = 0.70000
+				xmax = 0.80000
+				text = "a"
+			intervals [9]:
+				xmin = 0.80000
+				xmax = 0.92000
+				text = "l"
+			intervals [10]:
+				xmin = 0.92000
+				xmax = 1.08000
+				text = "a"
+			intervals [11]:
+				xmin = 1.08000
+				xmax = 1.51000
+				text = "i"
+			intervals [12]:
+				xmin = 1.51000
+				xmax = 1.55000
+				text = "n"
+			intervals [13]:
+				xmin = 1.55000
+				xmax = 1.58000
+				text = "f"
+			intervals [14]:
+				xmin = 1.58000
+				xmax = 1.61000
+				text = "o"
+			intervals [15]:
+				xmin = 1.61000
+				xmax = 1.64000
+				text = "r"
+			intervals [16]:
+				xmin = 1.64000
+				xmax = 1.80000
+				text = "m"
+			intervals [17]:
+				xmin = 1.80000
+				xmax = 1.92000
+				text = "aS"
+			intervals [18]:
+				xmin = 1.92000
+				xmax = 2.03000
+				text = "t"
+			intervals [19]:
+				xmin = 2.03000
+				xmax = 2.12000
+				text = "i"
+			intervals [20]:
+				xmin = 2.12000
+				xmax = 2.15000
+				text = "k"
+			intervals [21]:
+				xmin = 2.15000
+				xmax = 2.28000
+				text = "a"
+			intervals [22]:
+				xmin = 2.28000
+				xmax = 2.30000
+				text = "sil"
+	item [2]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0
+		xmax = 2.30000
+		intervals: size = 6
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.02000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.02000
+				xmax = 0.08000
+				text = "Me"
+			intervals [3]:
+				xmin = 0.08000
+				xmax = 0.80000
+				text = "gusta"
+			intervals [4]:
+				xmin = 0.80000
+				xmax = 1.08000
+				text = "la"
+			intervals [5]:
+				xmin = 1.08000
+				xmax = 2.28000
+				text = "inform\303\241tica"
+			intervals [6]:
+				xmin = 2.28000
+				xmax = 2.30000
+				text = "sil"

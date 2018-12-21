@@ -1,0 +1,100 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1.75000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0
+		xmax = 1.75000
+		intervals: size = 15
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.02000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.02000
+				xmax = 0.16000
+				text = "n"
+			intervals [3]:
+				xmin = 0.16000
+				xmax = 0.36000
+				text = "o"
+			intervals [4]:
+				xmin = 0.36000
+				xmax = 0.46000
+				text = "e"
+			intervals [5]:
+				xmin = 0.46000
+				xmax = 0.57000
+				text = "h"
+			intervals [6]:
+				xmin = 0.57000
+				xmax = 0.62000
+				text = "t"
+			intervals [7]:
+				xmin = 0.62000
+				xmax = 0.68000
+				text = "oS"
+			intervals [8]:
+				xmin = 0.68000
+				xmax = 0.85000
+				text = "i"
+			intervals [9]:
+				xmin = 0.85000
+				xmax = 0.88000
+				text = "k"
+			intervals [10]:
+				xmin = 0.88000
+				xmax = 1.11000
+				text = "a"
+			intervals [11]:
+				xmin = 1.11000
+				xmax = 1.31000
+				text = "s"
+			intervals [12]:
+				xmin = 1.31000
+				xmax = 1.62000
+				text = "aS"
+			intervals [13]:
+				xmin = 1.62000
+				xmax = 1.65000
+				text = "dA"
+			intervals [14]:
+				xmin = 1.65000
+				xmax = 1.73000
+				text = "o"
+			intervals [15]:
+				xmin = 1.73000
+				xmax = 1.75000
+				text = "sil"
+	item [2]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0
+		xmax = 1.75000
+		intervals: size = 5
+			intervals [1]:
+				xmin = 0.00000
+				xmax = 0.02000
+				text = "sil"
+			intervals [2]:
+				xmin = 0.02000
+				xmax = 0.36000
+				text = "No"
+			intervals [3]:
+				xmin = 0.36000
+				xmax = 0.85000
+				text = "estoy"
+			intervals [4]:
+				xmin = 0.85000
+				xmax = 1.73000
+				text = "casado"
+			intervals [5]:
+				xmin = 1.73000
+				xmax = 1.75000
+				text = "sil"
