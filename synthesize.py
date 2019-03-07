@@ -92,6 +92,6 @@ def synthesize(text):
 
     # end with silence
     generated_audio += silence
-    generated_audio.export('generated2.wav', format="wav")
+    generated_audio.export('generated.wav', format="wav")
 
 synthesize(sys.argv[1].decode('utf-8'))

@@ -59,4 +59,4 @@ def main(subject_n, sentence_txt):
     print
     print( '** Fin de la grabación ** gracias!')
 
-main('pilar', 'sentences2read.txt')
+main('muestra', 'sentences2read.txt')

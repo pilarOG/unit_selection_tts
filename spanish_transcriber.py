@@ -3,6 +3,15 @@
 import re
 
 def ltsRules(text):
+    '''
+    Description:
+        This function runs a series of replacement rules to convert from letters to sounds
+        given the phonetics of Chilean Spanish.
+    Input:
+        text(str): any string in Spanish
+    Output:
+        a list of phones for the input text
+    '''
     phones = []
 
     # letter sets
@@ -25,11 +34,13 @@ def ltsRules(text):
     letters = list(text)
     for let in range(0, len(letters)):
         if letters[let] != '#' and letters[let] != ' ':
-            c_let = letters[let]
-            p_let = letters[let-1]
-            pp_let = letters[let-2]
-            n_let = letters[let+1]
-            nn_let = letters[let+2]
+            # Get a window of context for each letter
+            c_let = letters[let]    # Current letter
+            p_let = letters[let-1]  # Previous letter
+            pp_let = letters[let-2] # Previous previous letter
+            n_let = letters[let+1]  # Next letter
+            nn_let = letters[let+2] # Next next letter
+                                    # This is inspired by Festival
 
             # replace Q
             if c_let == 'q' and n_let == 'u' and n_let == 'a': phones.append('k')
@@ -43,7 +54,7 @@ def ltsRules(text):
             elif c_let == 'u' and p_let == 'g' and n_let == u'í': pass
             elif c_let == 'u' and p_let == 'g' and n_let == u'é': pass
 
-            # stress
+            # stress for written stress marks
             elif c_let == u'á': phones.append('aS')
             elif c_let == u'é': phones.append('eS')
             elif c_let == u'í': phones.append('iS')
@@ -132,8 +143,19 @@ def ltsRules(text):
 
 
 def syllabify(phones):
+    '''
+    Description:
+        This function inserts syllable boundaries '-' for a list of phones
+        given the phonetics of Chilean Spanish. Rules are looking only for general
+        cases, and probably can't cope with loans or proper names.
+    Input:
+        phones(list): a list of phones in Spanish
+    Output:
+        a list of phones with syllable boundaries for the input text
+    '''
     syllables = []
     phones = ['#','#']+phones+['#','#']
+
     sylsets = {'V': ('aS', 'iS', 'uS', 'eS', 'oS', 'a', 'i', 'u', 'e', 'o',
                      'iSC', 'uSC', 'iSV', 'uSV'),
                'VV': ('aS', 'iS', 'uS', 'eS', 'oS', 'a', 'i', 'u', 'e', 'o'),
@@ -175,6 +197,15 @@ def syllabify(phones):
     return syllables
 
 def stress(syllables):
+    '''
+    Description:
+        This function assigns stress when it corresponds to the vowel of a word,
+        given Spanish rules
+    Input:
+        syllables(list): a list of phones and syllable boundaries
+    Output:
+        a list of phones with syllable boundaries and stress for the input text
+    '''
     stressed = []
     syllables = ['#','#']+syllables+['#','#']
     strsets = {'notNSV': ('p', 't', 'k', 'b', 'd', 'g', 'bA', 'dA', 'gA', 'f', 'hz',
@@ -195,6 +226,7 @@ def stress(syllables):
     c = 0
     S = False
     if '-' in syllables:
+        # We are counting syllables from the end of the word
         for let in reversed(range(0, len(syllables))):
             if syllables[let] == '-':
                 c += 1
@@ -203,7 +235,7 @@ def stress(syllables):
             elif c == 2:
                 plastSyl = True
 
-            # agudas
+            # Words that are stressed in the last syllable
             if syllables[let] == '-' and lastSyl == True and not plastSyl:
                 lastSyl = let
                 c =+ 1
@@ -219,7 +251,7 @@ def stress(syllables):
                             stressed.append(strVow[c_let])
                             S = True
                         else: stressed.append(c_let)
-            # graves
+            # Words that are stressed in the previous to last syllable
             elif syllables[let] == '-' and plastSyl == True:
                 plastSyl = let
                 plast = ['#','#']+syllables[let:lastSyl]+['#','#']
@@ -234,8 +266,7 @@ def stress(syllables):
                             stressed.append(strVow[c_let])
                             S = True
                         else: stressed.append(c_let)
-
-            # 2 syl words
+            # 2 syllabe words
             elif '-' not in syllables[:let+1] and syllables[let] != '#':
                 syl = []
                 for n in syllables[:let+1]:
@@ -248,11 +279,10 @@ def stress(syllables):
 
         stressed += list(reversed(syllables[:plastSyl]))
         stressed = list(reversed(stressed))
-
     else:
         stressed = syllables
 
-    # get rid of hz, syllable separtor, and set silence symbol
+    # Get rid of extra symbols
     stressed_phones = []
     for n in stressed:
         if n == 'hz': stressed_phones.append('s')
@@ -263,16 +293,28 @@ def stress(syllables):
     return stressed_phones
 
 def transcribe(text):
-    # lower case
+    '''
+    Description:
+        This function runs a text processing pipeline to obtain a full phonetic transcription
+        of a given text in Spanish.
+    Input:
+        text(str): any string in Spanish
+    Output:
+        a list of phones and stress assignment for the input text
+    '''
+    # Step 1: lower case
+    # '##' are silence phones that will be used as boundaries latter
     text = '##'+text.lower()+'##'
-    # TODO: normalization
-    # LTS rules
+    # Step 2: text normalization
+    # TODO: currently, we are not supporting text normalization
+    # Step 3: LTS rules
     phones = ltsRules(text)
-    # syllabification
+    # Step 4: Syllabification
     syllables = syllabify(phones)
+    # Step 5: stress assignment
+    # The stress assignment is only run if the word doesn't have the stress mark written
     if not re.findall(u'[áéúíó]', text):
-        # non written stress assignment
         stressed = stress(syllables)
         return stressed
-    #print stressed
+    # In this case, syllable marks are only used to assign stress and then removed
     return ' '.join(syllables).replace('-','').split()
